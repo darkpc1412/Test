@@ -37,7 +37,7 @@ async def convert_to_audio(vid_path):
         return None
     return final_warner
 
-@friday_on_cmd(
+@Alita(
     ["shazam"],
     cmd_help={
         "help": "Recognize / Discover A Song",
