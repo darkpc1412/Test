@@ -10,12 +10,9 @@
 import os
 import asyncio
 from shazamio import Shazam
-from main_startup.core.startup_helpers import run_cmd
 import datetime
 import requests
 import time
-from main_startup.core.decorators import friday_on_cmd
-from main_startup.helper_func.basic_helpers import edit_or_reply, get_text, humanbytes
 
 async def shazam(file):
     shazam = Shazam()
