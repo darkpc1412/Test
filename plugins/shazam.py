@@ -13,6 +13,7 @@ from shazamio import Shazam
 import datetime
 import requests
 import time
+from pyrogram import Client as Alita
 
 async def shazam(file):
     shazam = Shazam()
