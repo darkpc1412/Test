@@ -14,7 +14,7 @@ from pytgcalls.types.input_stream.quality import (
 from youtubesearchpython import VideosSearch
 
 from config import HNDLR, bot, call_py
-from EvaMaria.helpers.queues import QUEUE, add_to_queue, get_queue
+from plugins.helper_funcs.queues import QUEUE, add_to_queue, get_queue
 
 MRDARKPRINCE = [
     "https://telegra.ph/file/7056d413f38f54f2119d7.jpg",
