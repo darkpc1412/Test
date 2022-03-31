@@ -41,5 +41,5 @@ spamwatch>=0.3.0
 mapping
 telethon
 yt-dlp
-pytgcalls
+pytgcalls==0.8.1
 youtube-search-python
