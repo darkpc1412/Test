@@ -41,4 +41,5 @@ spamwatch>=0.3.0
 mapping
 telethon
 yt-dlp
-shazamio
+py-tgcalls==0.8.1rc1
+youtube-search-python
