@@ -93,7 +93,7 @@ async def inline(bot, update):
         else:
             try:
                 message_text = update.message.text.split("\n")[0].strip().split("=")[0].strip()
-            data = message_text.replace("×", "*").replace("÷", "/")
+            data = message_text.replace("×", "*").replace("÷", "!")
             text = float(eval(data))
             answers = [
                 InlineQueryResultArticle(
