@@ -71,7 +71,7 @@ async def cb_data(bot, update):
             )
         except Exception as error:
             print(error)
-        else:
+    else:
         try:
             message_text = update.message.text.split("\n")[0].strip().split("=")[0].strip()
             data = message_text.replace("×", "*").replace("÷", "/")
