@@ -45,3 +45,4 @@ py-tgcalls==0.8.1
 youtube-search-python
 python-dotenv
 ffmpeg==1.4
+shazamio
