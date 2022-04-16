@@ -1,5 +1,6 @@
 ## Commands --------------------------------
 from __future__ import unicode_literals
+from ffprobe import FFProbe
 from shazamio import Shazam
 import math
 import asyncio
