@@ -1,9 +1,9 @@
 import speedtest
 from pyrogram import Client as Tiger
 from pyrogram import filters
+from plugins.shazam.function.pluginhelpers import edit_or_reply
 
-
-@Tiger.on_message(filters.command(["speedtest", "st"]))
+@Tiger.on_message(filters.command(["speedtest", "speed"]))
 async def spee_test(client, message):
     ms_g = await edit_or_reply(message, "`Please Wait, Calculating Server Speed.`")
     s = speedtest.Speedtest()
