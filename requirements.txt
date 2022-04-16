@@ -48,3 +48,4 @@ ffmpeg==1.4
 shazamio
 ffprobe-python
 speedtest
+wikipedia
