@@ -1,5 +1,6 @@
 ## Commands --------------------------------
 from __future__ import unicode_literals
+Import shazamio
 import math
 import asyncio
 import time
