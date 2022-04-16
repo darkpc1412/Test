@@ -3,7 +3,7 @@ from main_startup.helper_func.basic_helpers import edit_or_reply, get_text
 
 
 @Client.on_message(filters.command(["wiki", "Wikipedia"]))
-       async def wikipediasearch(Client, message):
+async def wikipediasearch(Client, message):
     event = await edit_or_reply(message, "`Searching..`")
     query = get_text(message)
     if not query:
