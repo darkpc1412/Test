@@ -1,6 +1,5 @@
 ## Commands --------------------------------
 from __future__ import unicode_literals
-import ffmpeg
 from shazamio import Shazam
 import math
 import asyncio
