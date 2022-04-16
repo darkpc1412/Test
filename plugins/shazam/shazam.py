@@ -1,6 +1,6 @@
 ## Commands --------------------------------
 from __future__ import unicode_literals
-Import shazamio
+from shazamio import Shazam
 import math
 import asyncio
 import time
@@ -27,6 +27,21 @@ def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
+
+async def shazam(file):
+    shazam = Shazam()
+    try:
+        r = await shazam.recognize_song(file)
+    except:
+        return None, None, None
+    if not r:
+        return None, None, None
+    track = r.get("track")
+    nt = track.get("images")
+    image = nt.get("coverarthq")
+    by = track.get("subtitle")
+    title = track.get("title")
+    return image, by, title
 
 
 @Client.on_message(filters.command(["find", "shazam"]))
