@@ -3,7 +3,7 @@ from pyrogram import Client as Tiger
 from pyrogram import filters
 
 
-@Tiger.on_message(filters.command(["find", "shazam"]))
+@Tiger.on_message(filters.command(["speedtest", "st"]))
 async def spee_test(client, message):
     ms_g = await edit_or_reply(message, "`Please Wait, Calculating Server Speed.`")
     s = speedtest.Speedtest()
