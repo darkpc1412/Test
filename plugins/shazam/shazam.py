@@ -1,6 +1,6 @@
 ## Commands --------------------------------
 from __future__ import unicode_literals
-from ffprobe import FFProbe
+Import ffmpeg
 from shazamio import Shazam
 import math
 import asyncio
@@ -12,7 +12,7 @@ import os
 import datetime
 from json import JSONDecodeError
 import requests
-import ffmpeg
+from ffmpeg import FFprobe
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from youtubesearchpython import VideosSearch
