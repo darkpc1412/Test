@@ -12,6 +12,7 @@ import datetime
 from json import JSONDecodeError
 import requests
 import ffmpeg
+Import ffprobe
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from youtubesearchpython import VideosSearch
