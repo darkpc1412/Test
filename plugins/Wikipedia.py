@@ -1,5 +1,6 @@
 import wikipedia
-from plugins.shazam.function.basic_helpers import edit_or_reply, get_text
+from plugins.shazam.function.pluginhelpers import edit_or_reply
+from plugins.shazam.function.basic_helpers import get_text
 
 
 @Client.on_message(filters.command(["wiki", "Wikipedia"]))
