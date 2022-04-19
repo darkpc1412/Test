@@ -1,4 +1,5 @@
 import speedtest
+from speedtest import Speedtest
 from pyrogram import Client as Tiger
 from pyrogram import filters
 from plugins.shazam.function.pluginhelpers import edit_or_reply
