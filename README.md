@@ -7,7 +7,7 @@ Very Sempil Bot Auto Filter bot
 
 
 
-[![Deploy](https://telegra.ph/file/595e6b626b2fee08397d6.jpg)](https://heroku.com/deploy?template=https://telegram.dog/XTZ_HerokuBot?start=MjAwOTIwMDgyMDA3L1RpZ2VyU2hyb2ZmIG1haW4)
+[![Deploy](https://telegra.ph/file/595e6b626b2fee08397d6.jpg)](https://heroku.com/deploy?template=https://github.com/darkpc1412/Test)
 
 ## Features
 
@@ -57,7 +57,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=MjAwOTIwMDgyMDA3L1RpZ2VyU2hyb2ZmIG1haW4">
+<a href="https://github.com/darkpc1412/Test">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
